@@ -1,0 +1,349 @@
+
+
+{
+    "scenarios":[
+        {
+            "scenario_number":1,
+            "number_faults":50,
+            "duration_fault":[1],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.1]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":2,
+            "number_faults":50,
+            "duration_fault":[1],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.5]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":3,
+            "number_faults":50,
+            "duration_fault":[1],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [2.0]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":4,
+            "number_faults":50,
+            "duration_fault":[5],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.1]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":5,
+            "number_faults":50,
+            "duration_fault":[5],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.5]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":6,
+            "number_faults":50,
+            "duration_fault":[5],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [2.0]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":7,
+            "number_faults":50,
+            "duration_fault":[25],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.1]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":8,
+            "number_faults":50,
+            "duration_fault":[25],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.5]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":9,
+            "number_faults":50,
+            "duration_fault":[25],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [2.0]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":10,
+            "number_faults":50,
+            "duration_fault":[50],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.1]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":11,
+            "number_faults":50,
+            "duration_fault":[50],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [1.5]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        },
+                {
+            "scenario_number":12,
+            "number_faults":50,
+            "duration_fault":[50],
+            "gap_between_faults":50,
+            "insert_when_active":"True",
+            
+            "stuck_at":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [0]
+            },
+            "constant_gain":{
+                "active":"True",
+                "feature": ["GYROZ"],
+                "coefficient": [2.0]
+            },
+            "constant_bias":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "constant": [25]
+            },
+            "drift":{
+                "active":"False",
+                "feature": ["GYROZ"],
+                "slope": [20]
+            }
+        }
+
+
+
+
+               
+    ]
+    
+
+}
